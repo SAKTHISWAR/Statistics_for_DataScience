@@ -7,17 +7,17 @@ This folder contains Python code that demonstrates different techniques for **re
 
 ### Normal Distribution Approach
 
-Assumes the data follows a Gaussian (bell-shaped) distribution.Outliers are detected based on values lying far from the mean (e.g., beyond 4 standard deviations).
+Assumes the data follows a Gaussian (bell-shaped) distribution. Outliers are detected based on values lying far from the mean (e.g., beyond 4 standard deviations).
 
 
 ### Z-Score Method
 
-Standardizes the data by subtracting the mean and dividing by the standard deviation.Data points with Z-score > threshold (commonly 4 or -4) are considered outliers.
+Standardizes the data by subtracting the mean and dividing by the standard deviation. Data points with Z-score > threshold (commonly 4 or -4) are considered outliers.
 
 
 ### Quantile (IQR) Method
 
-Uses the Interquartile Range (IQR) between the 25th percentile and 75th percentile.But in this code, the outlier is being removed with the help of the percentile value which is greater than quantile(0.99). 
+Uses the Interquartile Range (IQR) between the 25th percentile and 75th percentile. But in this code, the outlier is being removed with the help of the percentile value which is greater than quantile(0.99). 
 
 # Summary
 
